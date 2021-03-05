@@ -1,0 +1,6 @@
+*.png
+*.mp4
+*.xml
+*.html
+/html/
+/xml/
