@@ -8,7 +8,7 @@ class TestFile:
 
     @allure.story('测试场景')
     def test_img(self):
-        fp=open('img.png','rb')
+        fp=open('img.png', 'rb')
         allure.attach(fp.read(), name='图片',attachment_type=allure.attachment_type.PNG)
         allure.attach.file('video.mp4', name='军舰', attachment_type=allure.attachment_type.MP4)
         with allure.step('1.步骤1：哈哈哈'):
